@@ -17,19 +17,18 @@ class Solution:
             stack.extend(temp.children[::-1])
         return output
     
+
 #Forma recursiva:
-    # def preorder (self, root:'Node') -> List['int']:
-    #     result = []
-    #     self.traversePreorder(root, result)
-    #     return result
+    def preorder (self, root:'Node') -> List['int']:
+        result = []
+        self.traversePreorder(root, result)
+        return result
     
-    # def traversePreorder(self, root: 'Node', result: List[int]):
-    #     result.append(root.val)
-    #     for child in root.children:
-    #         self.traversePreorder(child, result)
-    #     return  result          
-
-
+    def traversePreorder(self, root: 'Node', result: List[int]):
+        result.append(root.val)
+        for child in root.children:
+            self.traversePreorder(child, result)
+        return result
 
 
 if __name__ == "__main__":

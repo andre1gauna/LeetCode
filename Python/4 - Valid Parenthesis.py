@@ -8,7 +8,6 @@ class Solution:
             elif char in mapping.keys():
                 if not stack or mapping[char] != stack.pop():
                     return False
-
         return not stack        
     
     def isValid2(self, s: str) -> bool:
