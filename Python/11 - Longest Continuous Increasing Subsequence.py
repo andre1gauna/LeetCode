@@ -24,5 +24,4 @@ if __name__ == "__main__":
     print(sol.findLengthOfLCIS([1,3,5,4,2,3,4,5]))
 
 
-
-#TODO: rever 10
+#TODO: revisar 7 e 8, repensar 9 e 10

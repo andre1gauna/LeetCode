@@ -20,3 +20,5 @@ class Solution:
         root.left = self.trimBST(root.left, low, high)
         root.right = self.trimBST(root.right, low, high)
         return root
+
+#TODO: revisar 5 e 6, repensar 7 e 8

@@ -33,5 +33,6 @@ if __name__ == "__main__":
     solution = Solution()
     print(solution.hasCycle(head))
     
-            
+#TODO: repensar 1 e 2
+  
 

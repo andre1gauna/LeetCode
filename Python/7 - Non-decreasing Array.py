@@ -16,4 +16,4 @@ if __name__ == '__main__':
 [5,7,1,8]))
 
 
-        
+#TODO: revisar 3 e 4, repensar 5 e 6

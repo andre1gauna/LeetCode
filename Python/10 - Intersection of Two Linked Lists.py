@@ -44,3 +44,5 @@ if __name__ == "__main__":
     sol = Solution()
     intersection = sol.getIntersectionNode(headA, headB)
     print("\nIntersection at node:", intersection.val if intersection else "None")
+
+#TODO: revisar 5 e 6, repensar 7 e 8

@@ -1,5 +1,4 @@
-from typing import List, Optional
-from collections import defaultdict
+from typing import List
 
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -30,3 +29,5 @@ class Solution:
                 maxcount -= 1
                 
         return candidate
+
+#TODO: revisar 7 e 8, repensar 9 e 10

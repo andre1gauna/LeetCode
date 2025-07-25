@@ -41,3 +41,5 @@ if __name__ == "__main__":
     solution = Solution()
     result = solution.mergeTwoLists(list1,list2)
     print(result) 
+
+    #TODO: revisar 1 e 2, repensar 3 e 4
