@@ -14,4 +14,4 @@ class MyHashSet:
     def contains(self, key: int) -> bool:
         return self.v[key]
     
-#TODO: revisar 11 e 12, repensar 13 e 14
+#TODO: revisar 11 e 12,  repensar 13 e 14
